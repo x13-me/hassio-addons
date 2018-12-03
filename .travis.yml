@@ -10,5 +10,4 @@ before_install:
 env:
   - ADDON="ps4waker"
 script:
-  - docker login -u $DOCKER_USER -p $DOCKER_PASS
-  - ./build.sh $ADDON
+  - ./build.sh ps4waker
