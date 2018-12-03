@@ -8,11 +8,7 @@ before_install:
   - wget https://raw.githubusercontent.com/bestlibre/hassio-addons/master/build-scripts/addons/create_hassio_addon.sh -O create_hassio_addon.sh
   - chmod u+x create_hassio_addon.sh
 env:
-  - ADDON="smartthings"
   - ADDON="ps4waker"
-  - ADDON="devicelocator"
-  - ADDON="configwatcher"
-  - ADDON="appdaemon"
 script:
   - docker login -u $DOCKER_USER -p $DOCKER_PASS
   - ./build.sh $ADDON
