@@ -1,9 +1,9 @@
 {
   "name": "ps4-hassio-waker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bridge between ps4-walker and Hass.io",
   "main": "server.js",
-  "author": "Vlad Korniev",
+  "author": "Vlad Korniev - no longer maintained",
   "bin": {
     "ps4-hassio-waker": "server.js"
   },
